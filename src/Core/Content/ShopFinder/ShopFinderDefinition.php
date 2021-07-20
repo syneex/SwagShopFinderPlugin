@@ -50,11 +50,11 @@ class ShopFinderDefinition extends EntityDefinition
                 new BoolField('active', 'active'),
                 (new StringField('name', 'name'))->addFlages(new Required()),
                 (new StringField('street', 'street'))->addFlages(new Required()),
-                (new StringField('post_code', 'post_code'))->addFlages(new Required()),
+                (new StringField('post_code', 'postCode'))->addFlages(new Required()),
                 (new StringField('city', 'city'))->addFlages(new Required()),
                 new StringField('url', 'url'),
                 new StringField('telephone', 'telephone'),
-                new LongTextField('open_times', 'open_times'),
+                new LongTextField('open_times', 'openTimes'),
                 new FkField('country_id', 'countryId', CountryDefinition::class),
                 new ManyToOneAssociationField(
                     'country',
