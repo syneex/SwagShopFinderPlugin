@@ -36,8 +36,7 @@ class DemoDataController extends AbstractController {
     }
 
     /*
-     * @Route("/api/v{version}/_action/swag-shop-finder/generate", name="api.custom.swag_shop_finder.generate", methods={"POST"})
-     * @return Response
+     * @Route("/api/v{version}/_action/swag-shop-finder/generate", name="api.custom.swag_shop_finder.generate", methods={"POST", "GET"})
      */
     public function generate(Context $context) : Response
     {
