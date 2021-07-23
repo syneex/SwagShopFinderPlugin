@@ -9,7 +9,7 @@
             <tag name="shopware.entity.definition" entity="swag_shop_finder" />
         </service>
 
-        <service id="SwagShopFinder\Core\Api\DemoDataController" public="true">
+        <service id="SwagShopFinder\Controllers\Api\DemoDataController" public="true">
             <argument id="country.repository" type="service" />
             <argument id="swag_shop_finder.repository" type="service" />
 
@@ -22,6 +22,10 @@
             <argument id="Shopware\Core\System\SystemConfig\SystemConfigService" type="service" />
             <argument id="swag_shop_finder.repository" type="service" />
             <tag name="kernel.event_subscriber" />
+        </service>
+
+        <service id="SwagShopFinder\Resources\snippet\en_GB\SnippetFile_en_GB">
+            <tag name="shopware.snippet.file" />
         </service>
     </services>
 </container>

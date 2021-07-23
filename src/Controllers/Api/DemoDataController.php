@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace SwagShopFinder\Core\Api\DemoDataController;
+namespace SwagShopFinder\Controllers\Api\DemoDataController;
 
 use Faker\Factory;
 use Shopware\Core\Framework\Context;

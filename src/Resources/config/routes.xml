@@ -4,5 +4,5 @@
         xsi:schemaLocation="http://symfony.com/schema/routing
         https://symfony.com/schema/routing/routing-1.0.xsd">
 
-    <import resource="/var/www/html/custom/plugins/SwagShopFinder/src/Core/Api/DemoDataController.php" type="annotation" />
+    <import resource="/var/www/html/custom/plugins/SwagShopFinder/src/Controllers/Api/DemoDataController.php" type="annotation" />
 </routes>
